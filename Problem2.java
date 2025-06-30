@@ -7,13 +7,13 @@ public class Problem2 {
         System.out.print("Enter a number (a): ");
         int a = sc.nextInt();
 
-        int num = 1;  // starting odd number
+        int num = 1; 
         for (int i = 1; i <= a; i++) {
             System.out.print(num);
             if (i < a) {
                 System.out.print(", ");
             }
-            num += 2; // next odd number
+            num += 2; 
         }
     }
 }
